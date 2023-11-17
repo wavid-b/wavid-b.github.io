@@ -7,32 +7,35 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+
   </head>
   <body>
-    <nav id="desktop-nav">
-      <div class="logo">Wavid Bowman</div>
+    <nav id="desktop-nav" class = "backgroud-offwhite">
+      <div class="logo backgroud-offwhite">Wavid Bowman</div>
       <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="nav-links backgroud-offwhite">
+          <li class = "backgroud-offwhite"><a class = "backgroud-offwhite" href="#about">About</a></li>
+          <li class = "backgroud-offwhite"><a class = "backgroud-offwhite" href="#skills">Skills</a></li>
+          <li class = "backgroud-offwhite"><a class = "backgroud-offwhite" href="#experience">Experience</a></li>
+          <li class = "backgroud-offwhite"><a class = "backgroud-offwhite" href="#projects">Projects</a></li>
+          <li class = "backgroud-offwhite"><a class = "backgroud-offwhite" href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Wavid Bowman</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+    <nav id="hamburger-nav" class = "backgroud-offwhite">
+      <div class="logo backgroud-offwhite">Wavid Bowman</div>
+      <div class="hamburger-menu backgroud-offwhite">
+        <div class="hamburger-icon backgroud-offwhite" onclick="toggleMenu()">
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <div class="menu-links backgroud-offwhite">
+          <li class = "backgroud-offwhite"><a href="#about" class = "backgroud-offwhite" onclick="toggleMenu()">About</a></li>
+          <li class = "backgroud-offwhite"><a href="#skills" class = "backgroud-offwhite" onclick="toggleMenu()">Skills</a></li>
+          <li class = "backgroud-offwhite"><a href="#experience" class = "backgroud-offwhite" onclick="toggleMenu()">Experience</a></li>
+          <li class = "backgroud-offwhite"><a href="#projects" class = "backgroud-offwhite" onclick="toggleMenu()">Projects</a></li>
+          <li class = "backgroud-offwhite"><a href="#contact" class = "backgroud-offwhite" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -43,13 +46,13 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Wavid Bowman</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p2">Software Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
             onclick="window.open('./assets/Wavid Bowman Resume.pdf')"
           >
-            Download CV
+            Resume
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -90,19 +93,19 @@
               <img
                 src="./assets/experience.png"
                 alt="Experience icon"
-                class="icon"
+                class="icon-2 backgroud-offwhite"
               />
-              <h3>Experience</h3>
-              <p class="about">2+ years <br />Frontend Development</p>
+              <h3 class = "backgroud-offwhite">Experience</h3>
+              <p class="about backgroud-offwhite">4+ years <br />Software Development</p>
             </div>
             <div class="details-container">
               <img
                 src="./assets/education.png"
                 alt="Education icon"
-                class="icon"
+                class="icon-2 backgroud-offwhite"
               />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <h3 class = "backgroud-offwhite">University of Florida <br/> Dec. 2024</h3>
+              <p class = "backgroud-offwhite">BS Computer Science<br />BA Classical Studies</p>
             </div>
           </div>
           <div class="text-container">
@@ -121,132 +124,36 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#skills'"
       />
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+    <section id="skills">
+      <p class="section__text__p1">See My</p>
+      <h1 class="title">Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Language Experience</h2>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
-                  class="icon"
+                  class="icon-2 backgroud-offwhite"
                 />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                <div class = "backgroud-offwhite">
+                  <h3 class = "backgroud-offwhite">HTML</h3>
+                  <p class = "backgroud-offwhite">Experienced</p>
                 </div>
               </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+             <!--other languages-->
             </div>
           </div>
+          
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Software Development</h2>
             <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+              
             </div>
           </div>
         </div>
@@ -255,7 +162,18 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id = "experience">
+      <!--make a horizontal timeline-->
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
       />
     </section>
     <section id="projects">
@@ -347,22 +265,22 @@
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
+      <div class="contact-info-upper-container backgroud-offwhite">
+        <div class="contact-info-container backgroud-offwhite">
           <img
             src="./assets/email.png"
             alt="Email icon"
-            class="icon contact-icon email-icon"
+            class="icon contact-icon email-icon backgroud-offwhite"
           />
-          <p><a href="mailto:wavid.bowman@gmail.com" target = "_blank">wavid.bowman@gmail.com</a></p>
+          <p class = "backgroud-offwhite"><a href="mailto:wavid.bowman@gmail.com" target = "_blank" class = "backgroud-offwhite">wavid.bowman@gmail.com</a></p>
         </div>
-        <div class="contact-info-container">
+        <div class="contact-info-container backgroud-offwhite">
           <img
             src="./assets/linkedin.png"
             alt="LinkedIn icon"
-            class="icon contact-icon"
+            class="icon contact-icon backgroud-offwhite"
           />
-          <p><a href="https://www.linkedin.com/in/wavid-bowman/" target ="_blank">LinkedIn</a></p>
+          <p class = "backgroud-offwhite"><a href="https://www.linkedin.com/in/wavid-bowman/" target ="_blank" class = "backgroud-offwhite">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -371,9 +289,10 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+
           </ul>
         </div>
       </nav>

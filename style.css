@@ -2,7 +2,7 @@
 /*
   Black: #190929
   Off-black: #241831
-  grey: #AC9FBB
+  grey: #8f859c
   off-white: #f0e4e5
   white: #faf3f4
 */
@@ -59,10 +59,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: #8f859c;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #9f93ac;
 }
 
 .logo {
@@ -104,7 +104,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #faf3f4;
+  background-color: #f0e4e5;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -219,6 +219,9 @@ section {
   cursor: pointer;
   height: 2rem;
 }
+.icon-2{
+  height: 2rem;
+}
 
 /* BUTTONS */
 
@@ -303,10 +306,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: #faf3f4;
+  background: #f0e4e5;
   border-radius: 2rem;
   border: #241831 0.1rem solid;
-  border-color: #AC9FBB;
+  border-color: #8f859c;
   text-align: center;
 }
 
@@ -322,7 +325,9 @@ section {
 }
 
 /* EXPERIENCE SECTION */
-
+#skills{
+  position: relative;
+}
 #experience {
   position: relative;
 }
@@ -372,7 +377,7 @@ article .icon {
 }
 
 .color-container {
-  border-color: #AC9FBB;
+  border-color: #8f859c;
   background: #f0e4e5;
 }
 
@@ -389,7 +394,7 @@ article .icon {
 
 .project-btn {
   color: #190929;
-  border-color: #AC9FBB;
+  border-color: #8f859c;
 }
 
 /* CONTACT */
@@ -406,7 +411,7 @@ article .icon {
   justify-content: center;
   border-radius: 2rem;
   border: #241831 0.1rem solid;
-  border-color: #AC9FBB;
+  border-color: #8f859c;
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
@@ -441,4 +446,7 @@ footer {
 
 footer p {
   text-align: center;
+}
+.backgroud-offwhite{
+  background-color: #f0e4e5;
 }
