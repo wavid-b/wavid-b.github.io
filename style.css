@@ -16,6 +16,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #faf3f4
 }
 
 html {
@@ -218,6 +219,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  width: 2rem;
 }
 .icon-2{
   height: 2rem;

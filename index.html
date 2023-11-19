@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+    <title>Wavid Bowman Portfolio</title>
+    <link rel="stylesheet" href="assets/timeline/style.css">
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
 
@@ -282,10 +285,148 @@
         onclick="location.href='./#experience'"
       />
     </section>
-    <section id = "experience">
-      <!--make a horizontal timeline-->
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+    <section class="cd-h-timeline js-cd-h-timeline margin-bottom-md" id = "experience">
+       <!--make a horizontal timeline-->
+       <p class="section__text__p1">Explore My</p>
+       <h1 class="title">Experience</h1>
+      <div class="cd-h-timeline__container container">
+        <div class="cd-h-timeline__dates">
+          <div class="cd-h-timeline__line">
+            <ol>
+              <li><a href="#experience" data-date="14/11/2021" class="cd-h-timeline__date cd-h-timeline__date--selected">Current</a></li>
+              <li><a href="#experience" data-date="25/08/2022" class="cd-h-timeline__date">Aug 2023</a></li>
+              <li><a href="#experience" data-date="20/06/2023" class="cd-h-timeline__date">June 2023</a></li>
+              <li><a href="#experience" data-date="01/11/2022" class="cd-h-timeline__date">Nov 2022</a></li>
+              <li><a href="#experience" data-date="15/08/2022" class="cd-h-timeline__date">Aug 2022</a></li>
+              <li><a href="#experience" data-date="30/07/2022" class="cd-h-timeline__date">Jul 2022</a></li>
+              <li><a href="#experience" data-date="25/05/2021" class="cd-h-timeline__date">May 2021</a></li>
+            </ol>
+  
+            <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
+          </div> <!-- .cd-h-timeline__line -->
+        </div> <!-- .cd-h-timeline__dates -->
+          
+        <ul>
+          <li><a href="#experience" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a></li>
+          <li><a href="#experience" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a></li>
+        </ul>
+      </div> <!-- .cd-h-timeline__container -->
+  
+      <div class="cd-h-timeline__events">
+        <ol>
+          <li class="cd-h-timeline__event cd-h-timeline__event--selected text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Horizontal Timeline</h2>
+              <em class="cd-h-timeline__event-date">January 16th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">February 28th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">March 20th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">May 20th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">July 9th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">August 30th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">September 15th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">November 1st, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">December 10th, 2014</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">January 29th, 2015</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+  
+          <li class="cd-h-timeline__event text-component">
+            <div class="cd-h-timeline__event-content container">
+              <h2 class="cd-h-timeline__event-title">Event title here</h2>
+              <em class="cd-h-timeline__event-date">March 3rd, 2015</em>
+              <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div> <!-- .cd-h-timeline__events -->
+      
+     
 
       <img
       src="./assets/arrow.png"
@@ -294,6 +435,9 @@
       onclick="location.href='./#projects'"
       />
     </section>
+    <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+    <script src="assets/js/swipe-content.js"></script> <!-- A Vanilla JavaScript plugin to detect touch interactions -->
+    <script src="assets/js/main.js"></script>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
