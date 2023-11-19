@@ -3666,7 +3666,7 @@ body {
 .js .cd-h-timeline__container {
     position: relative;
     height: 100px;
-    max-width: 70%;
+    max-width: min(70%, 1300px);
 }
 
 .js .cd-h-timeline__dates {
@@ -3906,7 +3906,7 @@ body {
 }
 
 .js .cd-h-timeline__event-content {
-    max-width: 70%
+    max-width:  min(70%, 1300px);
 }
 
 .js .cd-h-timeline__event-title {
