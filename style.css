@@ -8,6 +8,7 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -273,6 +274,7 @@ section {
   gap: 1rem;
 }
 
+
 /* ABOUT SECTION */
 
 #about {
@@ -293,10 +295,12 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  justify-content: center;
+
 }
 
 .about-pic {
-  
+  max-width: max-content;
   border-radius: 2rem;
 }
 
@@ -314,6 +318,7 @@ section {
   border: #241831 0.1rem solid;
   border-color: #8f859c;
   text-align: center;
+  max-width: 805px;
 }
 
 .section-container {
@@ -352,6 +357,7 @@ section {
   background-color: #f0e4e5;
 }
 .article-container {
+  box-sizing: inherit;
   background-color: #f0e4e5;
   display: flex;
   text-align: initial;
@@ -418,6 +424,7 @@ article .icon {
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
+  min-width: 300px;
 }
 
 .contact-info-container {
@@ -437,7 +444,8 @@ article .icon {
 }
 
 .email-icon {
-  height: 2.5rem;
+  height: 40px;
+  width:40px;
 }
 
 /* FOOTER SECTION */
