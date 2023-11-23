@@ -310,6 +310,12 @@ section {
   right: -5rem;
   bottom: 2.5rem;
 }
+.up-arrow{
+  position: relative;
+  left: 0%;
+  bottom: 0%;
+  transform: rotate(180deg);
+}
 
 .details-container {
   padding: 1.5rem;
