@@ -60,11 +60,16 @@ a {
   text-decoration: none;
   text-decoration-color: white;
 }
-
+.intext_link{
+  color: #190929;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: #190929;
+}
 a:hover {
   color: #8f859c;
   text-decoration: underline;
-  text-underline-offset: 1rem;
+  text-underline-offset: 0.5rem;
   text-decoration-color: #9f93ac;
 }
 
