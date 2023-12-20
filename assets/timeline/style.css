@@ -3915,8 +3915,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-family: var(--font-secondary);
     font-weight: 700;
-    font-size: 2.48832em;
-    font-size: var(--text-xxxl)
+    font-size: 2rem;
 }
 
 .js .cd-h-timeline__event-date {
@@ -3929,7 +3928,9 @@ body {
 .js .cd-h-timeline__event-date::before {
     content: '- '
 }
-
+.cd-h-timeline__event-description{
+    font-size: 1.2rem;
+}
 @-webkit-keyframes cd-enter-right {
     0% {
         opacity: 0;
