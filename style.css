@@ -406,6 +406,8 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  max-height: 400px;
+  max-width: height;
 }
 
 .project-title {
